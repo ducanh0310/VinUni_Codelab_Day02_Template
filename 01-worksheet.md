@@ -63,11 +63,11 @@ Hãy sử dụng **4 Lenses** dưới đây để quét qua hoạt động vận
 ### 📝 List bài toán của tôi:
 | # | Subsidiary (VinFast/Xanh SM...) | Lens | Mô tả ngắn bài toán |
 |---|----------------------------------|------|---------------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
+| 1 | Vinhomes |Operational Efficiency & Cost Optimization | Dự báo & Tối ưu hóa Năng lượng MEP Tòa nhà (HVAC/Chiller): Điều khiển thủ công theo lịch cố định gây lãng phí năng lượng lớn. AI (Reinforcement Learning) dự báo tải điện, tối ưu công suất Chiller/chiếu sáng, giảm 12–18% chi phí năng lượng (tương đương hàng chục tỷ VNĐ/năm/khu đô thị).|
+| 2 |Vinhomes |Customer Experience & Process Automation | |
+| 3 | Vinhomes|Asset Quality & Vendor Management |Số hóa & Kiểm duyệt Bàn giao Căn hộ (AI Punch-list): Kỹ thuật viên nghiệm thu thủ công dễ bỏ sót lỗi kỹ thuật, kéo dài thời gian bàn giao. Computer Vision tự động nhận diện nứt/xước/lỗi thi công qua hình ảnh, định vị trên bản vẽ CAD/BIM và lập phiếu sửa chữa cho nhà thầu, giảm 10–15% chi phí khắc phục lỗi. |
+| 4 |Vinhomes |Security & Asset Revenue Protection | Tự động hóa Đối soát Bãi đỗ xe & Kiểm soát An ninh Tầng hầm: Xử lý thủ công các bất thường thẻ xe/xe vãng lai gây ùn tắc và thất thoát cước thu. Multi-Camera Computer Vision + OCR tự động đối soát biển số, phát hiện xe đỗ sai quy định và tích hợp thanh toán tự động, giảm 5–10% thất thoát doanh thu bãi xe.|
+| 5 |Vinhomes |Predictive Maintenance & Vendor QC | Bảo trì Dự đoán Thiết bị & Giám sát Cảnh quan Đô thị (PdM & Computer Vision): Bảo trì thang máy/bơm theo định kỳ cố định gây hỏng hóc đột xuất và tốn chi phí sửa chữa khẩn cấp. AIoT PdM dự báo sự cố thiết bị MEP kết hợp Flycam/CCTV AI giám sát diện tích cây xanh/vệ sinh, giảm 30–40% chi phí sửa chữa đột xuất.|
 
 ---
 
@@ -99,7 +99,7 @@ Chọn **top 3 bài toán** từ danh sách trên và hoàn thiện **3 Quick Pr
 ```
 
 > [!TIP]
-> **🤖 AI Prompts — Stress-Test thẻ bài toán:**
+> **🤖 AI Prompts — Stress-Test thẻ bài toán:*Đây là một thẻ bài toán vận hành tôi đề xuất cho Vin Smart Future:  Dự báo & Tối ưu hóa Năng lượng MEP Tòa nhà (HVAC/Chiller): Điều khiển thủ công theo lịch cố định gây lãng phí năng lượng lớn. AI (Reinforcement Learning) dự báo tải điện, tối ưu công suất Chiller/chiếu sáng, giảm 12–18% chi phí năng lượng (tương đương hàng chục tỷ VNĐ/năm/khu đô thị). Hãy đóng vai trò là một CFO và Trưởng phòng Vận hành cực kỳ khắt khe, chỉ ra cho tôi 3 điểm yếu về logic, metric, và giải thích vì sao rule-based code thông thường có thể giải quyết bài toán này tốt hơn là dùng AI.*
 > Hãy dán nội dung thẻ bài toán của bạn vào LLM để nhận phản biện:
 > *"Đây là một thẻ bài toán vận hành tôi đề xuất cho Vin Smart Future: [Dán nội dung]. Hãy đóng vai trò là một CFO và Trưởng phòng Vận hành cực kỳ khắt khe, chỉ ra cho tôi 3 điểm yếu về logic, metric, và giải thích vì sao rule-based code thông thường có thể giải quyết bài toán này tốt hơn là dùng AI."*
 
